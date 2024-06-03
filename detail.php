@@ -24,7 +24,11 @@ foreach ($obj->results as $item) {
 
 $title = "Detail dan Lokasi : " . $nama_daerah;
 
+<<<<<<< HEAD
 ?>
+=======
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAh0M3vKIhVO26dTSA_UMx-x2dl1JKlanb"></script>
+>>>>>>> f47f607695615b0d9a7e8c5a2916ca325cde167b
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -115,5 +119,81 @@ $title = "Detail dan Lokasi : " . $nama_daerah;
 
   var marker = L.marker([<?php echo $lat ?>, <?php echo $long ?>]).addTo(map);
 
+<<<<<<< HEAD
   marker.bindPopup('<h1><?php echo $nama_daerah ?></h1><p><?php echo $alamat ?></p>').openPopup();
 </script>
+=======
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Data</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">SMA Negeri</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">SMK Negeri</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Ikuti info terbaru</h4>
+            <p>Subscribe email</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>SIG SMA&SMK</span></strong>.
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-hover-dropdown.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/datatable-bootstrap.js"></script>
+
+</body>
+
+</html>
+<!--     <?php include_once "footer.php"; ?> -->
+>>>>>>> f47f607695615b0d9a7e8c5a2916ca325cde167b
